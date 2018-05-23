@@ -7,6 +7,8 @@ import platform
 import re
 import sys
 import subprocess
+reload(sys)
+sys.setdefaultencoding('utf-8')
 
 from functools import partial
 from collections import defaultdict
